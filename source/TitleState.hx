@@ -395,26 +395,27 @@ class TitleState extends MusicBeatState
 			case 1:
 				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 			// credTextShit.visible = true;
-			case 3:
+			case 2:
 				addMoreText('present');
 			// credTextShit.text += '\npresent...';
 			// credTextShit.addText();
-			case 4:
+			case 3:
 				deleteCoolText();
 			// credTextShit.visible = false;
 			// credTextShit.text = 'In association \nwith';
 			// credTextShit.screenCenter();
 			case 5:
+				deleteCoolText();
 				if (Main.watermarks)
-					createCoolText(['Kade Engine', 'by']);
+					createCoolText(['Marshy', 'by']);
 				else
-					createCoolText(['In Partnership', 'with']);
+					createCoolText(['Marshy', 'by']);
 			case 7:
 				if (Main.watermarks)
-					addMoreText('KadeDeveloper');
+					addMoreText('Hiplace');
 				else
 				{
-					addMoreText('Newgrounds');
+					addMoreText('Hiplace');
 					ngSpr.visible = true;
 				}
 			// credTextShit.text += '\nNewgrounds';

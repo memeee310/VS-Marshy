@@ -167,6 +167,22 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
+			case 'testing':
+				tex = Paths.getSparrowAtlas('Mom_Assets','shared',true);
+				frames = tex;
+
+				animation.addByPrefix('idle', "Testing Idle", 24, false);
+				animation.addByPrefix('singUP', "Testing Up Pose", 24, false);
+				animation.addByPrefix('singDOWN', "Testing DOWN POSE", 24, false);
+				animation.addByPrefix('singLEFT', 'Testing Left Pose', 24, false);
+				// ANIMATION IS CALLED Testing LEFT POSE BUT ITS FOR THE RIGHT
+				// CUZ DAVE IS DUMB!
+				animation.addByPrefix('singRIGHT', 'Testing Pose Left', 24, false);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
 			case 'mom-car':
 				tex = Paths.getSparrowAtlas('momCar','shared',true);
 				frames = tex;

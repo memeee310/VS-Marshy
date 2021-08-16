@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="MarshyJR.png"><SubTexture name="MarshyJR idle dance0000" x="0" y="0" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR idle dance0001" x="404" y="0" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR idle dance0002" x="808" y="0" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR idle dance0003" x="1212" y="0" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR idle dance0004" x="0" y="404" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note DOWN0000" x="404" y="404" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note DOWN0001" x="808" y="404" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note DOWN0002" x="1212" y="404" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note DOWN0003" x="0" y="808" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note DOWN0004" x="404" y="808" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note UP0000" x="808" y="808" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note UP0001" x="1212" y="808" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note UP0002" x="0" y="1212" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note UP0003" x="404" y="1212" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note UP0004" x="808" y="1212" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note LEFT0000" x="1212" y="1212" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note LEFT0001" x="0" y="1616" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note LEFT0002" x="404" y="1616" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note LEFT0003" x="808" y="1616" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note LEFT0004" x="1212" y="1616" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note RIGHT0000" x="0" y="2020" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note RIGHT0001" x="404" y="2020" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note RIGHT0002" x="808" y="2020" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note RIGHT0003" x="1212" y="2020" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+<SubTexture name="MarshyJR Sing Note RIGHT0004" x="0" y="2424" width="404" height="404" frameX="0" frameY="0" frameWidth="404" frameHeight="404" />
+</TextureAtlas>

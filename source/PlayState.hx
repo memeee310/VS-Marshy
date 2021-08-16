@@ -1027,6 +1027,12 @@ class PlayState extends MusicBeatState
 			case 'senpai-angry':
 				dad.x += 150;
 				dad.y += 360;
+			case 'marshyjr':
+				dad.x += 150;
+				dad.y += 360;
+			case 'marshy':
+				dad.x += 150;
+				dad.y += 360;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'spirit':
 				if (FlxG.save.data.distractions)

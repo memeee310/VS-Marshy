@@ -208,6 +208,18 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'Monster Right note', 24, false);
 
 				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+			case 'marshyjr':
+			    tex = Paths.getSparrowAtlas('MarshyJR','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', 'MarshyJR idle dance', 24, false);
+				animation.addByPrefix('singUP', 'MarshyJR Sing Note UP', 24, false);
+				animation.addByPrefix('singDOWN', 'MarshyJR Sing Note DOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'MarshyJR Sing Note LEFT', 24, false);
+				animation.addByPrefix('singRIGHT', 'MarshyJR Sing Note RIGHT', 24, false);
+				
+				loadOffsetFile(curCharacter);
 				playAnim('idle');
 			case 'monster-christmas':
 				tex = Paths.getSparrowAtlas('monsterChristmas','shared',true);

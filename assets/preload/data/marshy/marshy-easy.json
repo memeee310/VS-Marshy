@@ -26432,12 +26432,12 @@
     "mustHitSection": true
    }
   ],
-  "player2": "marshy",
+  "player2": "marshyjr",
   "chartVersion": "2",
   "eventObjects": [
    {
     "name": "Init BPM",
-    "position": 0,
+    "position": 6.834,
     "value": 180,
     "type": "BPM Change"
    }

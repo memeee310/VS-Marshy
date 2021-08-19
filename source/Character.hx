@@ -221,6 +221,17 @@ class Character extends FlxSprite
 				
 				loadOffsetFile(curCharacter);
 				playAnim('idle');
+			case 'basketball':
+			    tex = Paths.getSparrowAtlas('Basketball','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Basketball idle dance', 24, false);
+				animation.addByPrefix('singUP', 'Basketball Sing Note UP', 24, false);
+				animation.addByPrefix('singDOWN', 'Basketball Sing Note DOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'Basketball Sing Note LEFT', 24, false);
+				animation.addByPrefix('singRIGHT', 'Basketball Sing Note RIGHT', 24, false);
+				
+				loadOffsetFile(curCharacter);
+				playAnim('idle');
 			case 'monster-christmas':
 				tex = Paths.getSparrowAtlas('monsterChristmas','shared',true);
 				frames = tex;

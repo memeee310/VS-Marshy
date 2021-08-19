@@ -49,6 +49,7 @@ class HealthIcon extends FlxSprite
 		animation.add('marshy', [24, 25], 0, false, isPlayer);
 		animation.add('testing', [26, 27], 0, false, isPlayer);
 		animation.add('marshyjr', [24, 25], 0, false, isPlayer);
+		animation.add('basketball', [29, 30], 0, false, isPlayer);
 		animation.play(char);
 
 		switch(char)

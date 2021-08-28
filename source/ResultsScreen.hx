@@ -69,7 +69,7 @@ class ResultsScreen extends FlxSubState
 
         background.alpha = 0;
 
-        text = new FlxText(20,-55,0,"Song Cleared!");
+        text = new FlxText(20,-55,0,"Song Cleared! Opponent says FUK U!");
         text.size = 34;
         text.setBorderStyle(FlxTextBorderStyle.OUTLINE,FlxColor.BLACK,4,1);
         text.color = FlxColor.WHITE;

@@ -40,10 +40,10 @@ class Note extends FlxSprite
 	public var noteYOff:Int = 0;
 
 	public static var swagWidth:Float = 160 * 0.7;
-	public static var PURP_NOTE:Int = 0;
-	public static var GREEN_NOTE:Int = 2;
-	public static var BLUE_NOTE:Int = 1;
-	public static var RED_NOTE:Int = 3;
+	public static var PURP_NOTE:Int = 3;
+	public static var GREEN_NOTE:Int = 1;
+	public static var BLUE_NOTE:Int = 2;
+	public static var RED_NOTE:Int = 0;
 
 	public var rating:String = "shit";
 
@@ -52,7 +52,7 @@ class Note extends FlxSprite
 
 	public var dataColor:Array<String> = ['purple', 'blue', 'green', 'red'];
 	public var quantityColor:Array<Int> = [RED_NOTE, 2, BLUE_NOTE, 2, PURP_NOTE, 2, BLUE_NOTE, 2];
-	public var arrowAngles:Array<Int> = [180, 90, 270, 0];
+	public var arrowAngles:Array<Int> = [0, 90, 270, 0];
 
 	public var isParent:Bool = false;
 	public var parent:Note = null;

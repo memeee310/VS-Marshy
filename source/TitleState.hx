@@ -83,7 +83,9 @@ class TitleState extends MusicBeatState
 
 		curWacky = FlxG.random.getObject(getIntroTextShit());
 
-		trace('hello');
+		trace('Starting Up.....');
+		
+
 
 		// DEBUG BULLSHIT
 

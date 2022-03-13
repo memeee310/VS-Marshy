@@ -1,0 +1,1131 @@
+{
+	"song": {
+		"sectionLengths": [],
+		"player1": "bf",
+		"events": [],
+		"gfVersion": "gf",
+		"player2": "gf",
+		"notes": [
+			{
+				"sectionNotes": [],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						9600,
+						0,
+						0
+					],
+					[
+						10800,
+						3,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						12000,
+						0,
+						0
+					],
+					[
+						13200,
+						3,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						14400,
+						0,
+						0
+					],
+					[
+						15600,
+						3,
+						0
+					],
+					[
+						14400,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						15600,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						15600,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						15600,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						14400,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						14400,
+						3,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						16800,
+						0,
+						0
+					],
+					[
+						18000,
+						3,
+						0
+					],
+					[
+						16800,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						16800,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						16800,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						18000,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						18000,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						18000,
+						0,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						19200,
+						2,
+						0
+					],
+					[
+						20400,
+						1,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						21600,
+						2,
+						0
+					],
+					[
+						22800,
+						1,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						24000,
+						2,
+						0
+					],
+					[
+						25200,
+						1,
+						0
+					],
+					[
+						24000,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						24000,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						24000,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						25200,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						25200,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						25200,
+						0,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						26400,
+						2,
+						0
+					],
+					[
+						27600,
+						1,
+						0
+					],
+					[
+						26400,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						26400,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						26400,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						27600,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						27600,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						27600,
+						0,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						28800,
+						0,
+						0
+					],
+					[
+						30000,
+						2,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						31200,
+						1,
+						0
+					],
+					[
+						32400,
+						3,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						33600,
+						0,
+						0
+					],
+					[
+						34800,
+						2,
+						0
+					],
+					[
+						33600,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						33600,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						33600,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						34800,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						34800,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						34800,
+						0,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						36000,
+						1,
+						0
+					],
+					[
+						37200,
+						3,
+						0
+					],
+					[
+						36000,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						36000,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						36000,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						37200,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						37200,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						37200,
+						2,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						38400,
+						1,
+						0
+					],
+					[
+						39000,
+						1,
+						0
+					],
+					[
+						39600,
+						2,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						40800,
+						1,
+						0
+					],
+					[
+						41400,
+						1,
+						0
+					],
+					[
+						42000,
+						3,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						43200,
+						1,
+						0
+					],
+					[
+						43800,
+						1,
+						0
+					],
+					[
+						44400,
+						2,
+						0
+					],
+					[
+						43350,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						43950,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						44400,
+						0,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						45600,
+						1,
+						0
+					],
+					[
+						46200,
+						1,
+						0
+					],
+					[
+						46800,
+						3,
+						0
+					],
+					[
+						45750,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						46350,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						46800,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						46800,
+						0,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						48000,
+						1,
+						0
+					],
+					[
+						48300,
+						2,
+						0
+					],
+					[
+						48600,
+						3,
+						0
+					],
+					[
+						48900,
+						2,
+						0
+					],
+					[
+						49800,
+						3,
+						0
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						50400,
+						1,
+						0
+					],
+					[
+						50700,
+						2,
+						0
+					],
+					[
+						51000,
+						3,
+						0
+					],
+					[
+						51300,
+						2,
+						0
+					],
+					[
+						52200,
+						3,
+						0
+					],
+					[
+						50400,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						50400,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						50700,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						50700,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						51000,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						51000,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						51300,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						51300,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						52200,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						52200,
+						1,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						52800,
+						3,
+						0
+					],
+					[
+						53400,
+						1,
+						0
+					],
+					[
+						54000,
+						0,
+						0
+					],
+					[
+						54600,
+						1,
+						0
+					],
+					[
+						52800,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						52800,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						53400,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						53400,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						54000,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						54000,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						54600,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						54600,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						54600,
+						0,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						55200,
+						2,
+						0
+					],
+					[
+						55800,
+						3,
+						0
+					],
+					[
+						56400,
+						0,
+						0
+					],
+					[
+						57000,
+						2,
+						0
+					],
+					[
+						55200,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						55200,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						55800,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						55800,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						56400,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						56400,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						57000,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						57000,
+						3,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						57600,
+						1,
+						750
+					],
+					[
+						57600,
+						2,
+						750,
+						"Marshy Note"
+					],
+					[
+						57600,
+						3,
+						750,
+						"Marshy Note"
+					],
+					[
+						57600,
+						0,
+						750,
+						""
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						62550,
+						1,
+						0
+					],
+					[
+						62850,
+						3,
+						0
+					],
+					[
+						64050,
+						3,
+						0
+					],
+					[
+						62400,
+						3,
+						0
+					],
+					[
+						62700,
+						0,
+						0
+					],
+					[
+						63000,
+						0,
+						0
+					],
+					[
+						63300,
+						0,
+						0
+					],
+					[
+						63450,
+						3,
+						0
+					],
+					[
+						63600,
+						1,
+						0
+					],
+					[
+						63750,
+						0,
+						0
+					],
+					[
+						63900,
+						1,
+						0
+					],
+					[
+						64500,
+						0,
+						0
+					],
+					[
+						64650,
+						1,
+						0
+					],
+					[
+						64200,
+						1,
+						0
+					],
+					[
+						64350,
+						2,
+						0
+					],
+					[
+						63150,
+						2,
+						0
+					],
+					[
+						62400,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						62550,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						62700,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						62850,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						63000,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						63150,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						63300,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						63300,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						63450,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						63750,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						63900,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						63600,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						64050,
+						0,
+						0,
+						"Marshy Note"
+					],
+					[
+						64200,
+						2,
+						0,
+						"Marshy Note"
+					],
+					[
+						64350,
+						3,
+						0,
+						"Marshy Note"
+					],
+					[
+						64500,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						64350,
+						1,
+						0,
+						"Marshy Note"
+					],
+					[
+						64650,
+						2,
+						0,
+						"Marshy Note"
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": true
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"lengthInSteps": 16,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			}
+		],
+		"player3": null,
+		"song": "Tutorial",
+		"validScore": true,
+		"sections": 0,
+		"needsVoices": false,
+		"speed": 3,
+		"bpm": 100
+	}
+}

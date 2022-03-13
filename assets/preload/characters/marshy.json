@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				380
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Marshy idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				397
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Marshy Sing Note LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				347
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Marshy Sing Note DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				433
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Marshy Sing Note UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				410
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Marshy Sing Note RIGHT0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Marshy",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "marshy",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="marshy-pixel.png"><SubTexture name="marshy-pixel idle dance0000" x="0" y="0" width="24" height="24" frameX="0" frameY="0" frameWidth="24" frameHeight="24" />
+<SubTexture name="marshy-pixel Sing Note LEFT0000" x="24" y="0" width="24" height="24" frameX="0" frameY="0" frameWidth="24" frameHeight="24" />
+<SubTexture name="marshy-pixel Sing Note UP0000" x="0" y="24" width="24" height="24" frameX="0" frameY="0" frameWidth="24" frameHeight="24" />
+<SubTexture name="marshy-pixel Sing Note DOWN0000" x="24" y="24" width="24" height="24" frameX="0" frameY="0" frameWidth="24" frameHeight="24" />
+<SubTexture name="marshy-pixel Sing Note RIGHT0000" x="48" y="0" width="24" height="24" frameX="0" frameY="0" frameWidth="24" frameHeight="24" />
+</TextureAtlas>

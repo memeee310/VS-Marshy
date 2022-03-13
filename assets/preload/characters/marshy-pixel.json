@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-329,
+				-190
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "marshy-pixel idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-329,
+				-190
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "marshy-pixel Sing Note LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-328,
+				-190
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "marshy-pixel Sing Note DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-329,
+				-190
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "marshy-pixel Sing Note UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-330,
+				-190
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "marshy-pixel Sing Note RIGHT0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/marshy-pixel",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "marshy-pixel",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		120,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 8
+}

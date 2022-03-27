@@ -4745,24 +4745,54 @@
 				"bpm": 150
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 150,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 150,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 150,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 150
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 150
 			},
 			{
 				"gfSection": false,
@@ -4776,7 +4806,348 @@
 			}
 		],
 		"gfVersion": "gf",
-		"events": [],
+		"events": [
+			[
+				1947.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				3447.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				3600,
+				[
+					[
+						"Health Drain",
+						"0.00013",
+						""
+					]
+				]
+			],
+			[
+				4645,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				4800,
+				[
+					[
+						"Health Drain",
+						"0.00013",
+						""
+					]
+				]
+			],
+			[
+				5445,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				5600,
+				[
+					[
+						"Health Drain",
+						"0.00013",
+						""
+					]
+				]
+			],
+			[
+				6252.5,
+				[
+					[
+						"Health Drain",
+						"0.00013",
+						""
+					]
+				]
+			],
+			[
+				6400,
+				[
+					[
+						"Health Drain",
+						"0.00013",
+						""
+					]
+				]
+			],
+			[
+				8850,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				9000,
+				[
+					[
+						"Health Drain",
+						"0.00013",
+						""
+					]
+				]
+			],
+			[
+				9237.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				9400,
+				[
+					[
+						"Health Drain",
+						"0.00013",
+						""
+					]
+				]
+			],
+			[
+				9550,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				9700,
+				[
+					[
+						"Note Remix",
+						"",
+						""
+					]
+				]
+			],
+			[
+				11500,
+				[
+					[
+						"Note Remix",
+						"",
+						""
+					]
+				]
+			],
+			[
+				11750,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			],
+			[
+				11900,
+				[
+					[
+						"Health Drain",
+						"0.0003",
+						""
+					]
+				]
+			],
+			[
+				12100,
+				[
+					[
+						"Note Remix",
+						"",
+						""
+					]
+				]
+			],
+			[
+				12350,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			],
+			[
+				12500,
+				[
+					[
+						"Health Drain",
+						"0.0003",
+						""
+					]
+				]
+			],
+			[
+				13200,
+				[
+					[
+						"Note Remix",
+						"",
+						""
+					]
+				]
+			],
+			[
+				13452.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			],
+			[
+				13600,
+				[
+					[
+						"Health Drain",
+						"0.0003",
+						""
+					]
+				]
+			],
+			[
+				13842.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			],
+			[
+				14200,
+				[
+					[
+						"Note Remix",
+						"",
+						""
+					]
+				]
+			],
+			[
+				14900,
+				[
+					[
+						"Health Drain",
+						"0.0003",
+						""
+					]
+				]
+			],
+			[
+				15045,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			],
+			[
+				15200,
+				[
+					[
+						"Health Drain",
+						"0.0003",
+						""
+					]
+				]
+			],
+			[
+				15352.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			],
+			[
+				15500,
+				[
+					[
+						"Note Remix",
+						"",
+						""
+					]
+				]
+			],
+			[
+				16200,
+				[
+					[
+						"Note Remix",
+						"",
+						""
+					]
+				]
+			],
+			[
+				25950,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad"
+					]
+				]
+			],
+			[
+				64950,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			]
+		],
 		"player3": null,
 		"song": "Marshy",
 		"validScore": true,

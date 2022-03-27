@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Never Gonna Give You Up", "bf", [49, 176, 209]]
+	],
+
+	"weekCharacters": [
+		"marshy",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "outdoors",
+
+	"storyName": "Extra Content",
+	"weekBefore": "marshy",
+	"weekName": "Tutorial",
+	"startUnlocked": false,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

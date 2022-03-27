@@ -51,6 +51,10 @@ class StageData {
 					stage = 'school';
 				case 'thorns':
 					stage = 'schoolEvil';
+				case 'marshy':
+					stage = 'outside';
+				case 'pixelated-dream':
+					stage = 'outdoors-pixel';
 				default:
 					stage = 'stage';
 			}

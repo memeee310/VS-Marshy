@@ -11,10 +11,10 @@
 	],
 	"weekBackground": "outdoors",
 
-	"storyName": "",
+	"storyName": "This was a terrible idea",
 	"weekBefore": "tutorial",
-	"weekName": "Tutorial",
-	"startUnlocked": true,
+	"weekName": "Marshy",
+	"startUnlocked": false,
 
 	"hideStoryMode": false,
 	"hideFreeplay": false

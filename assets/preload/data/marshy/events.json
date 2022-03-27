@@ -1,0 +1,59 @@
+{
+	"song": {
+		"speed": 3.5,
+		"stage": "outside",
+		"player1": "bf",
+		"player2": "marshy",
+		"player3": null,
+		"events": [
+			[
+				1947.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad "
+					]
+				]
+			],
+			[
+				13842.5,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			],
+			[
+				25950,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"Dad"
+					]
+				]
+			],
+			[
+				64950,
+				[
+					[
+						"Play Animation",
+						"Poison",
+						"dad"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 150,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Marshy"
+	}
+}

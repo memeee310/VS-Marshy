@@ -55,6 +55,7 @@ import Achievements;
 import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
+import CoolUtil;
 #if sys
 import sys.FileSystem;
 #end
@@ -170,8 +171,8 @@ class PlayState extends MusicBeatState
 	public static var chartingMode:Bool = false;
 
 	//Gameplay settings
-	public var healthGain:Float = 1;
-	public var healthLoss:Float = 1;
+	public var healthGain:Float = 0.2;
+	public var healthLoss:Float = 0.2;
 	public var instakillOnMiss:Bool = false;
 	public var cpuControlled:Bool = false;
 	public var practiceMode:Bool = false;
@@ -299,11 +300,20 @@ class PlayState extends MusicBeatState
 			FlxG.sound.music.stop();
 
 		// Gameplay settings
-		healthGain = ClientPrefs.getGameplaySetting('healthgain', 1);
-		healthLoss = ClientPrefs.getGameplaySetting('healthloss', 1);
-		instakillOnMiss = ClientPrefs.getGameplaySetting('instakill', false);
-		practiceMode = ClientPrefs.getGameplaySetting('practice', false);
-		cpuControlled = ClientPrefs.getGameplaySetting('botplay', false);
+		if(storyDifficultyText == 'Hell') // Because Why Not?
+			{
+				healthGain = ClientPrefs.getGameplaySetting('healthgain', 0.1);
+				healthLoss = ClientPrefs.getGameplaySetting('healthloss', 1);
+				instakillOnMiss = ClientPrefs.getGameplaySetting('instakill', true);
+				practiceMode = ClientPrefs.getGameplaySetting('practice', false);
+				cpuControlled = ClientPrefs.getGameplaySetting('botplay', false);		
+			} else {
+				healthGain = ClientPrefs.getGameplaySetting('healthgain', 0.2);
+				healthLoss = ClientPrefs.getGameplaySetting('healthloss', 0.2);
+				instakillOnMiss = ClientPrefs.getGameplaySetting('instakill', false);
+				practiceMode = ClientPrefs.getGameplaySetting('practice', false);
+				cpuControlled = ClientPrefs.getGameplaySetting('botplay', false);
+			}
 
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
@@ -351,7 +361,7 @@ class PlayState extends MusicBeatState
 		var songName:String = Paths.formatToSongPath(SONG.song);
 
 		curStage = PlayState.SONG.stage;
-		//trace('stage is: ' + curStage);
+		trace('stage is: ' + curStage);
 		if(PlayState.SONG.stage == null || PlayState.SONG.stage.length < 1) {
 			switch (songName)
 			{
@@ -379,7 +389,8 @@ class PlayState extends MusicBeatState
 		}
 
 		var stageData:StageFile = StageData.getStageFile(curStage);
-		if(stageData == null) { //Stage couldn't be found, create a dummy stage for preventing a crash
+
+		if(curStage == 'outside') {
 			stageData = {
 				directory: "",
 				defaultZoom: 0.9,
@@ -387,7 +398,7 @@ class PlayState extends MusicBeatState
 			
 				boyfriend: [770, 100],
 				girlfriend: [400, 130],
-				opponent: [100, 100],
+				opponent: [100, 250],
 				hide_girlfriend: false,
 			
 				camera_boyfriend: [0, 0],
@@ -395,7 +406,39 @@ class PlayState extends MusicBeatState
 				camera_girlfriend: [0, 0],
 				camera_speed: 1
 			};
-		}
+		} else if (curStage == 'outdoors-pixel') {
+			stageData = {
+				directory: "",
+				defaultZoom: 1.05,
+				isPixelStage: true,
+			
+				boyfriend: [970, 320],
+				girlfriend: [580, 430],
+				opponent: [-100, 250],
+				hide_girlfriend: false,
+			
+				camera_boyfriend: [-100, -100],
+				camera_opponent: [150, 0],
+				camera_girlfriend: [0, 0],
+				camera_speed: 1
+			};
+		} else if (stageData == null) { //Stage couldn't be found, create a dummy stage for preventing a crash
+		    stageData = {
+			    directory: "",
+			    defaultZoom: 0.9,
+			    isPixelStage: false,
+		
+			    boyfriend: [770, 100],
+			    girlfriend: [400, 130],
+			    opponent: [100, 100],
+			    hide_girlfriend: false,
+		
+			    camera_boyfriend: [0, 0],
+			    camera_opponent: [0, 0],
+			    camera_girlfriend: [0, 0],
+			    camera_speed: 1
+		};
+	}
 
 		defaultCamZoom = stageData.defaultZoom;
 		isPixelStage = stageData.isPixelStage;
@@ -453,15 +496,15 @@ class PlayState extends MusicBeatState
 				}
 
 			case 'outside': //Week Marshy
-			    var outsidebg:BGSprite = new BGSprite('outdoors', -600, -200, 0.9, 0.9);
+			    var outsidebg:BGSprite = new BGSprite('outside/outdoors', -600, -200, 0.9, 0.9);
 			    add(outsidebg);
 
-			    var outsideFront:BGSprite = new BGSprite('ground', -650, 600, 0.9, 0.9);
+			    var outsideFront:BGSprite = new BGSprite('outside/ground', -650, 600, 0.9, 0.9);
 			    outsideFront.setGraphicSize(Std.int(outsideFront.width * 1.1));
 			    outsideFront.updateHitbox();
 			    add(outsideFront);
 			    if(!ClientPrefs.lowQuality) {
-				    var sky:BGSprite = new BGSprite('sky', -500, -300, 1.3, 1.3);
+				    var sky:BGSprite = new BGSprite('outside/sky', -500, -300, 1.3, 1.3);
 				    sky.setGraphicSize(Std.int(sky.width * 0.9));
 				    sky.updateHitbox();
 				    add(sky);
@@ -701,7 +744,7 @@ class PlayState extends MusicBeatState
 			var bgOutSky:BGSprite = new BGSprite('outdoors-pixel/skypixel', 0, 0, 0.1, 0.1);
 			add(bgOutSky);
 			bgOutSky.antialiasing = false;
-			
+
 			var widShit = Std.int(bgOutSky.width * 6);
 
 			bghouse.setGraphicSize(widShit);
@@ -2503,6 +2546,56 @@ class PlayState extends MusicBeatState
 			// Conductor.lastSongPos = FlxG.sound.music.time;
 		}
 
+		var grabbed = false;
+
+		var totalDamageTaken:Float = 0;
+
+		var shouldBeDead:Bool = false;
+	
+		var interupt = false;
+	
+		function HealthDrainInEngine(Drain:Float)
+			{
+				healthDrain += Drain;
+			}
+		
+		function NoteMessUp(Angle:Float, YAxis:Float)
+			{
+				for (i in 0...playerStrums.length) {
+					playerStrums.members[i].angle = FlxG.random.int(Std.int(playerStrums.members[0].angle - Angle), Std.int(playerStrums.members[0].angle + Angle));
+					playerStrums.members[i].y = FlxG.random.int(Std.int(playerStrums.members[0].y - YAxis), Std.int(playerStrums.members[0].y + YAxis));
+			    }
+			    for (i in 0...opponentStrums.length) {
+				opponentStrums.members[i].angle = FlxG.random.int(Std.int(opponentStrums.members[0].angle - Angle), Std.int(opponentStrums.members[0].angle + Angle));
+				opponentStrums.members[i].y = FlxG.random.int(Std.int(opponentStrums.members[0].y - YAxis), Std.int(opponentStrums.members[0].y + YAxis));
+			    }
+			FlxG.sound.play(Paths.sound('notemessup'));
+			}
+	
+		if (Paths.formatToSongPath(SONG.song) == 'marshy')
+			{
+				if(curBeat == 5)
+					{
+					    HealthDrainInEngine(0.00013);
+					}
+				if(curBeat == 35)
+					{
+						HealthDrainInEngine(0.00013);
+					}
+				if(curBeat == 55)
+					{
+						NoteMessUp(180, 50);
+					}
+				if(curBeat == 65)
+					{
+						HealthDrainInEngine(0.00019);
+					}
+				if(curBeat == 162)
+					{
+						HealthDrainInEngine(0.00025);
+					}
+			}
+
 		if (camZooming)
 		{
 			FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, CoolUtil.boundTo(1 - (elapsed * 3.125), 0, 1));
@@ -3111,9 +3204,31 @@ class PlayState extends MusicBeatState
 						}
 					});
 				}
+			case 'Note Remix':
+				for (i in 0...playerStrums.length) {
+						playerStrums.members[i].angle = FlxG.random.int(Std.int(playerStrums.members[0].angle - 180), Std.int(playerStrums.members[0].angle + 180));
+						playerStrums.members[i].y = FlxG.random.int(Std.int(playerStrums.members[0].y - 50), Std.int(playerStrums.members[0].y + 50));
+				}
+				for (i in 0...opponentStrums.length) {
+					opponentStrums.members[i].angle = FlxG.random.int(Std.int(opponentStrums.members[0].angle - 180), Std.int(opponentStrums.members[0].angle + 180));
+					opponentStrums.members[i].y = FlxG.random.int(Std.int(opponentStrums.members[0].y - 50), Std.int(opponentStrums.members[0].y + 50));
+				}
+			    FlxG.sound.play(Paths.sound('notemessup'));
+			case 'Health Drain':
+				var val1:Float = Std.parseFloat(value1);
+				var val2:Float = Std.parseFloat(value2);
+				if(Math.isNaN(val1)) val1 = 0;
+				if(Math.isNaN(val2)) val2 = 0;
+				healthDrain += val1;
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
+
+	var missingnoStarted:Bool = false;
+	var reverseXY:Bool = false;
+
+	// I fucking hate math
+	final bullshitArray:Array<Int> = [-2, -1, 1, 2];
 
 	function moveCameraSection(?id:Int = 0):Void {
 		if(SONG.notes[id] == null) return;

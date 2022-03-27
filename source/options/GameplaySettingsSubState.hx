@@ -63,6 +63,20 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('Easy Mode',
+		    "If checked, Turns off all mechanics.",
+		    'pussyMode',
+			'bool',
+		    false);
+		addOption(option);
+
+		var option:Option = new Option('Hard Mode',
+		    "If checked, Cranks up all mechanics to 12.",
+		    'hellMode',
+		    'bool',
+		    false);
+	    addOption(option);
+
 		var option:Option = new Option('Disable Reset Button',
 			"If checked, pressing Reset won't do anything.",
 			'noReset',
